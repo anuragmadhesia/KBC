@@ -1,28 +1,35 @@
-#include <iostream.h>
-#include<dos.h>
+#include <iostream>
+//#include<ostream>
+//#include<istream>
+//#include<dos.h>
+#include<cstdlib>
 #include<conio.h>
+#include<time.h>
 #include<stdlib.h>
+#include<string>
 #include<stdio.h>
+using namespace std;
 int main()
 {
-   clrscr();
-   randomize();
-   char name[80],feeling[100];
+   //clrscr();
+   //randomize();
+   string name,feeling;
    int ok,e,b,c,code,Dial,ans,ques1,ques2,ques3,ques4,ques5,ques6,ques7,ques8,ques9,ques10,ques11,ques12,ques13,ques14;
-   cout<<"\t\t---------KAUN BANEGA MAHA CRORPATI---------";
+   cout<<"\t\t---------KAUN BANEGA MAHA CROREPATI---------";
    exit:
    cout<<"\n\n\nEnter CODE::";
    cin>>code;
    if(code==1234)
    {
    cout<<"\n\t\tEnter name :";
-   gets(name);
-   cout<<"\n\n\t\tHELLO "<<name<<", Welcome to KBC!";
-   sleep(1);
+   getline(cin,name);
+   getline(cin,name);
+   cout<<"\n\t\tHELLO "<<name<<", Welcome to KBC!";
+   //sleep(1);
    cout<<"\n\t\tyou have 14 QUESTION for 7 CRORE $ ";
-   sleep(1);
+   //sleep(1);
    cout<<"\n\t\tGOOD LUCK!";
-   sleep(1);
+   //sleep(1);
    }
    else
    {
@@ -32,7 +39,9 @@ int main()
    system("PAUSE");
        goto exit;
    }
-   ques1=random(4)+1;
+   system("PAUSE");
+   srand(time(NULL));
+   ques1=(rand()%4)+1;
    switch(ques1)
    {     case 1:cout<<"\n\n1.Who is 'father of nation' of INDIA?"
 		    <<"\n\n1.Jawahar Lal Nehru"
@@ -88,8 +97,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 5,000 $";
-   sleep(1);
-   ques2=random(4)+1;
+   //sleep(1);
+   ques2=(rand()%4)+1;
    switch(ques2)
    {     case 1:cout<<"\n\n2.Who is Iron Man of INDIA?"
 		    <<"\n\n1.Sardar Balabh Bhai Patel"
@@ -145,8 +154,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 10,000 $";
-   sleep(1);
-   ques3=random(4)+1;
+   //sleep(1);
+   ques3=(rand()%4)+1;
    switch(ques3)
    {     case 1:cout<<"\n\n3.Who is the father of Computer?"
 		    <<"\n\n1.Charles Babbage"
@@ -202,8 +211,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 20,000 $";
-   sleep(1);
-   ques4=random(4)+1;
+   //sleep(1);
+   ques4=(rand()%4)+1;
    switch(ques4)
    {     case 1:cout<<"\n\n4.Who make fastest 100 in cricket?"
 		    <<"\n\n1.A.B.Devillers"
@@ -257,8 +266,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 40,000 $";
-   sleep(1);
-   ques5=random(4)+1;
+   //sleep(1);
+   ques5=(rand()%4)+1;
    switch(ques5)
    {     case 1:cout<<"\n\n5.Which country produce Banana Maximum?"
 		    <<"\n\n1.Brazil"
@@ -310,8 +319,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 80,000 $";
-   sleep(1);
-   ques6=random(4)+1;
+   //sleep(1);
+   ques6=(rand()%4)+1;
    switch(ques6)
    {     case 1:cout<<"\n\n6.Who say's 'Delhi Chalo'.?"
 		    <<"\n\n1.Subash Chandra Bose"
@@ -363,8 +372,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 1,60,000 $";
-   sleep(1);
-   ques7=random(4)+1;
+   //sleep(1);
+   ques7=(rand()%4)+1;
    switch(ques7)
    {     case 1:cout<<"\n\n7.What is the capital of France?"
 		    <<"\n\n1.New York"
@@ -416,8 +425,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 3,20,000 $";
-   sleep(1);
-   ques8=random(5)+1;
+   //sleep(1);
+   ques8=(rand()%4)+1;
    switch(ques8)
    {     case 1:cout<<"\n\n8.Which is fastest running bird in the world?"
 		    <<"\n\n1.Ostrich"
@@ -481,8 +490,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 6,40,000 $";
-   sleep(1);
-   ques9=random(5)+1;
+   //sleep(1);
+   ques9=(rand()%4)+1;
    switch(ques9)
    {     case 1:cout<<"\n\n9.Which is most ancient religion in the world?"
 		    <<"\n\n1.Jesus"
@@ -546,8 +555,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 12,50,000 $";
-   sleep(1);
-   ques10=random(6)+1;
+   //sleep(1);
+   ques10=(rand()%4)+1;
    switch(ques10)
    {     case 1:cout<<"\n\n10.Who invented Hovercraft?"
 		    <<"\n\n1.Stefenson"
@@ -623,8 +632,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 25,00,000 $";
-   sleep(1);
-   ques11=random(5)+1;
+   //sleep(1);
+   ques11=(rand()%4)+1;
    switch(ques11)
    {     case 1:cout<<"\n11.Who is women first I.A.S of INDIA?"
 		    <<"\n\n1.Kiran Bedi"
@@ -676,8 +685,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 50,00,000 $";
-   sleep(1);
-   ques12=random(4)+1;
+   //sleep(1);
+   ques12=(rand()%4)+1;
    switch(ques12)
    {     case 1:cout<<"\n\n12.World fastest computer?"
 		    <<"\n\n1.T-5R.a"
@@ -730,12 +739,13 @@ int main()
    }
    cout<<"\n\n\t\tCongratulation! You won 1 CRORE $";
    getch();
-   cout<<"\n\nCongrajulation now you are a carorpati. How are you feeling? \n\nShare you feeling :";
-   cin>>feeling;
-   sleep(3);
+   cout<<"\n\nCongrajulation now you are a crorepati. How are you feeling? \n\nShare you feeling :";
+   getline(cin,feeling);
+   getline(cin,feeling);
+   //sleep(3);
    cout<<"\n\n\tIts GREAT to play with you";
-   sleep(1);
-   ques13=random(4)+1;
+   //sleep(1);
+   ques13=(rand()%4)+1;
    switch(ques13)
    {     case 1:cout<<"\n\n13.In which year SAARC is stabelised?"
 		    <<"\n\n1.1989"
@@ -787,8 +797,8 @@ int main()
 		goto label;
    }
    cout<<"\n\n\t\tCongratulation! You won 3 CRORE $";
-   sleep(1);
-   ques14=random(4)+1;
+   //sleep(1);
+   ques14=(rand()%4)+1;
    switch(ques14)
    {     case 1:cout<<"\n\n14.In which country Income Tax is not taken by Government?"
 		    <<"\n\n1.Monako(Europe)"
@@ -839,13 +849,13 @@ int main()
 		cout<<"\n\nWrong Answer (You win 3 crore $)"<<"\nRight Answer {1896(Unan)}";
 		goto label;
    }
-   sleep(1);
+   //sleep(1);
    cout<<"\n\n\t\t$$$ Aap Maha crorpati Bangaye $$$";
-   sleep(1);
+   //sleep(1);
    cout<<"\n\n\n\t\tCongratulation! "<<name<<"\n\t\t, You won 7 CRORE $";
-   sleep(2);
+   //sleep(2);
    label:
-   sleep(2);
+   //sleep(2);
    cout<<"\n\n\n\t  Your Winning Money is transferd to "<<name<<"'s account @";
    getch();
 }
