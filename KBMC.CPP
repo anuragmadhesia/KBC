@@ -1,7 +1,4 @@
 #include <iostream>
-//#include<ostream>
-//#include<istream>
-//#include<dos.h>
 #include<cstdlib>
 #include<conio.h>
 #include<time.h>
