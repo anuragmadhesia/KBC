@@ -44,7 +44,7 @@ int main()
 		    <<"\n\n1.Jawahar Lal Nehru"
 		    <<"\n2.Mahatma Gandhi"
 		    <<"\n3.Nathu Ram Godse"
-		    <<"\n4.Narender Modi"
+		    <<"\n4.Narendra Modi"
 		    <<"\n\nEnter Option:";
 		cin>>ans;
 		if(ans==2)
@@ -67,10 +67,10 @@ int main()
 		    <<"\nRight Answer {4}";
 		goto label;
 	 case 3:cout<<"\n\n1.What is full form of C.I.D.S?"
-		    <<"\n\n1.Criminal Identefing Detective's"
+		    <<"\n\n1.Criminal Identifying Detective's"
 		    <<"\n2.Criminal Integrated Detective's"
 		    <<"\n3.Chief of Integrated Defence Staff"
-		    <<"\n4.Cheif of Identefing Detective's"
+		    <<"\n4.Chief of Identifying Detective's"
 		    <<"\n\nEnter Option:";
 		cin>>ans;
 		if(ans==3)
@@ -98,19 +98,19 @@ int main()
    ques2=(rand()%4)+1;
    switch(ques2)
    {     case 1:cout<<"\n\n2.Who is Iron Man of INDIA?"
-		    <<"\n\n1.Sardar Balabh Bhai Patel"
+		    <<"\n\n1.Sardar Vallabh Bhai Patel"
 		    <<"\n2.Mahatma Gandhi"
 		    <<"\n3.Nathu Ram Godse"
-		    <<"\n4.Narender Modi"
+		    <<"\n4.Narendra Modi"
 		    <<"\n\nEnter Option:";
 		cin>>ans;
 		if(ans==1)
 		break;
 		else
 		cout<<"\n\nWrong Answer (You win 5,000 $)"
-		<<"\nRight Answer {Sardar Balabh Bhai Patel}";
+		<<"\nRight Answer {Sardar Vallabh Bhai Patel}";
 		goto label;
-	 case 2:cout<<"\n\n2.How many player are in Base ball team?"
+		 case 2:cout<<"\n\n2.How many player are in baseball team?"
 		    <<"\n\n1.4"
 		    <<"\n2.6"
 		    <<"\n3.7"
@@ -170,7 +170,7 @@ int main()
 	 case 2:cout<<"\n\n3.Who is Owner of Microsoft?"
 		    <<"\n\n1.Charles Babbage"
 		    <<"\n2.Bill Gates"
-		    <<"\n3.Mark Jukenberge"
+		    <<"\n3.Mark Zuckerberg"
 		    <<"\n4.John Atansoff"
 		    <<"\n\nEnter Option:";
 		cin>>ans;
@@ -190,8 +190,8 @@ int main()
 		if(ans==1)
 		break;
 		else
-		cout<<"\n\nWrong Answer (You win 10,000 $)"
-		<<"\nRight Answer {Steve Jobs}";
+			cout<<"\n\nWrong Answer (You win 10,000 $)"
+			<<"\nRight Answer {Dr.Samuel Hurst}";
 		goto label;
 	 case 4:cout<<"\n\n3.Who invented Telephone?"
 		    <<"\n\n1.Graham Bell"
@@ -214,7 +214,7 @@ int main()
    {     case 1:cout<<"\n\n4.Who make fastest 100 in cricket?"
 		    <<"\n\n1.A.B.Devillers"
 		    <<"\n2.Corey Anderson"
-		    <<"\n3.Chris Gayel"
+		    <<"\n3.Chris Gayle"
 		    <<"\n4.Rohit Sharma"
 		    <<"\n\nEnter Option:";
 		cin>>ans;
